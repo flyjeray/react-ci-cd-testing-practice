@@ -1,6 +1,7 @@
 {
   "name": "react-ci-cd-testing-practice",
   "version": "0.1.0",
+  "homepage": "https://flyjeray.github.io/react-ci-cd-testing-practice",
   "private": true,
   "dependencies": {
     "@types/node": "^24.0.15",
@@ -20,7 +21,9 @@
     "style-check": "prettier --check .",
     "style-fix": "prettier --write .",
     "typecheck": "tsc --noEmit",
-    "prepare": "husky"
+    "prepare": "husky",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -45,6 +48,7 @@
     "babel-jest": "^30.0.4",
     "eslint": "^9.31.0",
     "eslint-plugin-react": "^7.37.5",
+    "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "husky": "^9.1.7",
     "jest": "^30.0.4",
