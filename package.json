@@ -15,7 +15,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "style-check": "prettier --check .",
+    "style-fix": "prettier --write .",
+    "typecheck": "tsc --noEmit"
   },
   "browserslist": {
     "production": [
@@ -32,14 +36,20 @@
   "devDependencies": {
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
+    "@eslint/js": "^9.31.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.3.0",
     "@types/jest": "^30.0.0",
     "ajv": "^8.17.1",
     "babel-jest": "^30.0.4",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
     "jest": "^30.0.4",
     "jest-environment-jsdom": "^30.0.4",
+    "prettier": "^3.6.2",
     "react-test-renderer": "^19.1.0",
-    "ts-jest": "^29.4.0"
+    "ts-jest": "^29.4.0",
+    "typescript-eslint": "^8.37.0"
   }
 }
