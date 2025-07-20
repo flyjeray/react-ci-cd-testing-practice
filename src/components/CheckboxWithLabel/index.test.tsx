@@ -1,3 +1,4 @@
+import React from "react";
 import { cleanup, fireEvent, render } from "@testing-library/react";
 import CheckboxWithLabel from ".";
 
@@ -9,7 +10,7 @@ describe(CheckboxWithLabel, () => {
     const inactiveText = "Off";
 
     const { getByTestId } = render(
-      <CheckboxWithLabel labelOn={activeText} labelOff={inactiveText} />
+      <CheckboxWithLabel labelOn={activeText} labelOff={inactiveText} />,
     );
 
     const checkbox = getByTestId("checkbox");
