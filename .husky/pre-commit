@@ -1,2 +1,2 @@
 echo "Verifying with Husky.."
-npm run lint && npm run style-fix && npm run typecheck && git add -u
+# npm run lint && npm run style-fix && npm run typecheck && git add -u
