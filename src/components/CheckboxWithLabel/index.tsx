@@ -1,6 +1,12 @@
+import React from "react";
 import { useState } from "react";
 
-export default function CheckboxWithLabel({ labelOn, labelOff }) {
+type Props = {
+  labelOn: string;
+  labelOff: string;
+}
+
+export default function CheckboxWithLabel({ labelOn, labelOff }: Props) {
   const [isChecked, setIsChecked] = useState(false);
 
   const onChange = () => {
