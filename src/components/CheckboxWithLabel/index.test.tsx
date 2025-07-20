@@ -15,10 +15,10 @@ describe(CheckboxWithLabel, () => {
     const checkbox = getByTestId("checkbox");
     const label = getByTestId("label");
 
-    expect(label.textContent).toBe(inactiveText);
+    expect(label.textContent).toBe(activeText);
 
     fireEvent.click(checkbox);
 
-    expect(label.textContent).toBe(activeText);
+    expect(label.textContent).toBe(inactiveText);
   });
 });
