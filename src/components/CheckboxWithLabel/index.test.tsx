@@ -10,7 +10,7 @@ describe(CheckboxWithLabel, () => {
     const inactiveText = "Off";
 
     const { getByTestId } = render(
-      <CheckboxWithLabel labelOn={activeText} labelOff={inactiveText} />
+      <CheckboxWithLabel labelOn={activeText} labelOff={inactiveText} />,
     );
 
     const checkbox = getByTestId("checkbox");

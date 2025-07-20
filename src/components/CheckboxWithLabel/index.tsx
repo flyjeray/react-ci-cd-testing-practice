@@ -4,7 +4,7 @@ import { useState } from "react";
 type Props = {
   labelOn: string;
   labelOff: string;
-}
+};
 
 export default function CheckboxWithLabel({ labelOn, labelOff }: Props) {
   const [isChecked, setIsChecked] = useState(false);

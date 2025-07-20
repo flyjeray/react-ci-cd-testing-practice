@@ -19,7 +19,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "style-check": "prettier --check .",
     "style-fix": "prettier --write .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepare": "husky"
   },
   "browserslist": {
     "production": [
@@ -45,6 +46,7 @@
     "eslint": "^9.31.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.3.0",
+    "husky": "^9.1.7",
     "jest": "^30.0.4",
     "jest-environment-jsdom": "^30.0.4",
     "prettier": "^3.6.2",

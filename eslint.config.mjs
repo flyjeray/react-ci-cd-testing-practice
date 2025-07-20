@@ -15,7 +15,7 @@ export default defineConfig([
     languageOptions: { globals: globals.browser },
   },
   {
-    ignores: ['coverage/*']
+    ignores: ["coverage/*"],
   },
   tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
