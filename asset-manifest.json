@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-ci-cd-testing-practice/static/css/main.deda9b3b.css",
-    "main.js": "/react-ci-cd-testing-practice/static/js/main.1ff029c2.js",
-    "index.html": "/react-ci-cd-testing-practice/index.html",
-    "main.deda9b3b.css.map": "/react-ci-cd-testing-practice/static/css/main.deda9b3b.css.map",
-    "main.1ff029c2.js.map": "/react-ci-cd-testing-practice/static/js/main.1ff029c2.js.map"
+    "main.css": "/react-ci-cd-practice/static/css/main.deda9b3b.css",
+    "main.js": "/react-ci-cd-practice/static/js/main.1ff029c2.js",
+    "index.html": "/react-ci-cd-practice/index.html",
+    "main.deda9b3b.css.map": "/react-ci-cd-practice/static/css/main.deda9b3b.css.map",
+    "main.1ff029c2.js.map": "/react-ci-cd-practice/static/js/main.1ff029c2.js.map"
   },
   "entrypoints": [
     "static/css/main.deda9b3b.css",
