@@ -1,7 +1,7 @@
 {
-  "name": "react-ci-cd-testing-practice",
+  "name": "react-ci-cd-practice",
   "version": "0.1.0",
-  "homepage": "https://flyjeray.github.io/react-ci-cd-testing-practice",
+  "homepage": "https://flyjeray.github.io/react-ci-cd-practice",
   "private": true,
   "dependencies": {
     "@types/node": "^24.0.15",
