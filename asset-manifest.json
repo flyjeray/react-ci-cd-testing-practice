@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/react-ci-cd-testing-practice/static/js/main.64fe294d.js",
+    "index.html": "/react-ci-cd-testing-practice/index.html",
+    "main.64fe294d.js.map": "/react-ci-cd-testing-practice/static/js/main.64fe294d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.64fe294d.js"
+  ]
+}
